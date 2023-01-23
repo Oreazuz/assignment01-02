@@ -4,6 +4,25 @@ body{
 
 header{
     text-align: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ul{
+    list-style: none;
+    background-color:rgba(0,0,0,0.1);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+li{
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    border-right: 2px solid rgba(0,0,0,0.1);
 }
 
 p{
@@ -19,20 +38,40 @@ h2{
     margin-bottom: 5px;
 }
 
-section {
+.text-section {
     margin: 10px 100px ;
     text-align: center;
     margin: 10px 100px;
 }
 
 footer{
-    bottom: 0%;
     position: absolute;
-    right:25%;
-    left:25%;
+    bottom: 0%;
+    right:0%;
+    left:0%;
+    background-color:rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 .img-section{
     text-align: center;
      margin-top: 60px;
+}
+
+.nav-links{
+    font-size: 40px;
+    text-decoration: none;
+    color:black;
+    padding:10px;
+    
+}
+.nav-links:hover{
+    background-color:#c8bcac;
+}
+.nav-links-active{
+    font-size: 40px;
+    text-decoration: none;
+    color:black;
+    padding:10px;
+    background-color: rgb(250, 235, 215);
 }
